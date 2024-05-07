@@ -20,7 +20,6 @@ function Login(){
     const [message, setMessage] = useState(null);
 
     const {isAuth} = useSelector((state) => state.users)
-    // const isAuth = true
 
     useEffect(() => {
         if (isAuth) {

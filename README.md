@@ -16,7 +16,10 @@
 ## About The Project
 
  <p>
- <strong>ZWallet App</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad placeat corrupti dolore blanditiis beatae iste natus, fuga quam. Eius maiores voluptate non id beatae temporibus praesentium repudiandae, impedit asperiores rem.
+ <strong>ZWallet App</strong> Karena dalam era digital yang semakin berkembang, kegiatan transaksi keuangan tidak lagi terbatas pada metode konvensional seperti transfer antar bank atau pembayaran tunai langsung. 
+ Banyak orang mulai mencari cara yang lebih efisien dan mudah untuk mengirim dan menerima uang.
+ ZWallet lahir dengan pemahaman akan trend ini, yaitu kebutuhan akan solusi yang praktis dan aman untuk melakukan transfer uang secara online. 
+ 
  </p>
 
 ## 🛠️ Installation Steps
@@ -35,10 +38,20 @@ npm install
 yarn install
 ```
 
+2. run prettier
+
+```bash
+npm run format
+# or
+yarn format
+```
+
 3. Run the app
 
 ```bash
 npm run dev
+# or
+yarn dev
 ```
 
 🌟 You are all set!

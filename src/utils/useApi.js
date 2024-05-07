@@ -1,15 +1,15 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
-import { useSelector } from "react-redux";
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
 
-function useApi(urls = "") {
+function useApi(urls = '') {
   const { token } = useSelector((s) => s.users);
 
   const [requests, setRequests] = useState({
     baseURL: import.meta.env.VITE_APP_BASEURL || urls,
     // baseURL: import.meta.env.VITE_APP_BASEURL || urls,
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
       Authorization: `Bearer ${token}`,
     },
   });
@@ -18,7 +18,7 @@ function useApi(urls = "") {
     setRequests({
       ...requests,
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
         Authorization: `Bearer ${token}`,
       },
     });
