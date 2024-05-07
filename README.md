@@ -27,7 +27,7 @@
 1. Clone the repository
 
 ```bash
-git clone https://github.com/guslizikri/Zwallet.git
+git clone https://github.com/taufikharahap/Zwallet-ReactJs.git
 ```
 
 2. Install dependencies
