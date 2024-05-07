@@ -4,14 +4,6 @@
 
 <p align="center"><img src="./src/assets/img/ZWallet-app.png" width="400px" alt="ZWallet" /></p>
 
-<p align="center">
-    <a href="https://www.fazztrack.com/" target="blank">View Demo Project</a>
-    ·
-    <a href="https://github.com/guslizikri/Zwallet/issues" target="blank">Report Bug</a>
-    ·
-    <a href="https://github.com/guslizikri/Zwallet/pulls">Request Feature</a>
-    ·
-</p>
 
 ## About The Project
 
