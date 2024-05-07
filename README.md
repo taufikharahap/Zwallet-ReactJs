@@ -38,7 +38,7 @@ npm install
 yarn install
 ```
 
-2. run prettier
+3. run prettier
 
 ```bash
 npm run format
@@ -46,7 +46,7 @@ npm run format
 yarn format
 ```
 
-3. Run the app
+4. Run the app
 
 ```bash
 npm run dev
